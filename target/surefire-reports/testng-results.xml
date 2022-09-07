@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51064" started-at="2022-09-07T20:42:48 IST" finished-at="2022-09-07T20:43:39 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51064" started-at="2022-09-07T20:42:48 IST" finished-at="2022-09-07T20:43:39 IST">
+      <class name="org.login.com.RealTest">
+        <test-method status="PASS" signature="InitBro()[pri:0, instance:org.login.com.RealTest@79be0360]" name="InitBro" is-config="true" duration-ms="11855" started-at="2022-09-07T20:42:48 IST" finished-at="2022-09-07T20:43:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitBro -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:org.login.com.RealTest@79be0360]" name="testCase1" duration-ms="11" started-at="2022-09-07T20:43:00 IST" finished-at="2022-09-07T20:43:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:org.login.com.RealTest@79be0360]" name="TearDown" is-config="true" duration-ms="1135" started-at="2022-09-07T20:43:00 IST" finished-at="2022-09-07T20:43:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="InitBro()[pri:0, instance:org.login.com.RealTest@79be0360]" name="InitBro" is-config="true" duration-ms="9727" started-at="2022-09-07T20:43:01 IST" finished-at="2022-09-07T20:43:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitBro -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:org.login.com.RealTest@79be0360]" name="testCase2" duration-ms="26985" started-at="2022-09-07T20:43:10 IST" finished-at="2022-09-07T20:43:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:org.login.com.RealTest@79be0360]" name="TearDown" is-config="true" duration-ms="1312" started-at="2022-09-07T20:43:37 IST" finished-at="2022-09-07T20:43:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- org.login.com.RealTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
