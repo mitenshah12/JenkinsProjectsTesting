@@ -24,8 +24,8 @@ public class BaseClass {
 	@BeforeMethod
 	public void InitBro() throws Exception {
 		
-	WebDriverManager.firefoxdriver().setup();
-	driver = new FirefoxDriver();
+	WebDriverManager.chromedriver().setup();
+	driver = new ChromeDriver();
 	FileInputStream fs = new FileInputStream("C:\\Users\\mnshah\\eclipse-workspace\\JenkisSimpleDemoWithMaven\\src\\test\\resources\\resource\\Config.properties");
 	prop=new Properties();
 	prop.load(fs);
