@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -23,8 +24,8 @@ public class BaseClass {
 	@BeforeMethod
 	public void InitBro() throws Exception {
 		
-	WebDriverManager.chromedriver().setup();
-	driver = new ChromeDriver();
+	WebDriverManager.firefoxdriver().setup();
+	driver = new FirefoxDriver();
 	FileInputStream fs = new FileInputStream("C:\\Users\\mnshah\\eclipse-workspace\\JenkisSimpleDemoWithMaven\\src\\test\\resources\\resource\\Config.properties");
 	prop=new Properties();
 	prop.load(fs);
