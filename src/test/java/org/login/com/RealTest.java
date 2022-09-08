@@ -22,7 +22,7 @@ public class RealTest extends BaseClass {
 		String titleOfHomePage=driver.getTitle();
 		System.out.println("The Title of the webpage is "+titleOfHomePage);
 		SoftAssert assert1 = new SoftAssert();
-		assert1.assertEquals(titleOfHomePage, "Dashaoard");
+		assert1.assertEquals(titleOfHomePage, "Dashboard");
 		assert1.assertAll();
 	}
 
