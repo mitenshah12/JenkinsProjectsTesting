@@ -30,7 +30,7 @@ public class RealTest extends BaseClass {
 
 	public void testCase2() throws Exception {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		for(int i=1;i<3;i++) {
+		for(int i=2;i<=3;i++) {
 			driver.findElement(By.xpath("//li[@class='menu-item menu-tmpl' and @id='UcMenu1_adminMenu_DXI0_2']")).click();
 		}
 		driver.findElement(By.xpath("//a[@data-parent='Covid Data']")).click();
